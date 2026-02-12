@@ -2,6 +2,7 @@ Algoritmo Menu_Ejercicios_simples
 	definir number2 como entero
 	definir a1 como entero
 	definir a2 como entero
+    definir a3 como entero
 	definir b1 como entero
 	definir b2 como entero
 	definir c1 como entero
@@ -23,9 +24,9 @@ Algoritmo Menu_Ejercicios_simples
 
 	escribir "Ejercicios simples"
 	escribir "Seleccione el ejercicio que quiere ver"
-	escribir "(1) Pedir al usuario dos números, calcular el promedio y mostrarlo"
-	escribir "(2) Pedir al usuario la altura y base de un triángulo y mostrarlo"
-	escribir "(3) Pedir al ususario tres números y calcular su promedio"
+	escribir "(1) Pedir al usuario dos nÃºmeros, calcular el promedio y mostrarlo"
+	escribir "(2) Pedir al usuario la altura y base de un triÃ¡ngulo y mostrarlo"
+	escribir "(3) Pedir al ususario tres nÃºmeros y calcular su promedio"
 	escribir "(4) Convertir temperatura de grados Celsus a Fahrenheit"
 	escribir "(5) Calcular el volumen de un cilindro"
 	escribir "(6) Calcular la velocidad promedio solicitando la distancia recorrida y el tiempo empleado"
@@ -34,10 +35,11 @@ Algoritmo Menu_Ejercicios_simples
 	Segun number2 Hacer
 		1:
 			limpiar pantalla
-			escribir "ingrese 2 numeros para darle su promedio"
+			escribir "ingrese 3 numeros para darle su promedio"
 			leer a1
 			leer a2
-			resultado_a<-(a1+a2)/2
+            leer a3
+			resultado_a<-(a1+a2+a3)/2
 			escribir "el promedio es " resultado_a
 		2:
 			limpiar pantalla
